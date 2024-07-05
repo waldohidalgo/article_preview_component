@@ -13,7 +13,7 @@ export default {
     class="flex items-center font-manrope p-[14px_32px_21px_33px] bg-white md:p-[14px_39px_31px_40px]"
   >
     <img
-      class="w-[38px] rounded-full -mt-[5px]"
+      class="w-[38px] rounded-full -mt-[5px] h-[38px]"
       src="../assets/avatar-michelle.jpg"
       alt="avatar"
     />
