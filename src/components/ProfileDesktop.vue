@@ -25,6 +25,9 @@ export default {
     </div>
     <div
       class="bg-lightGrayishBlue ml-auto rounded-full p-[8px] me-[1px] cursor-pointer hover:bg-desaturatedDarkBlue group relative"
+      :class="
+        showShareDesktop ? 'bg-veryDarkGrayishBlue' : 'bg-lightGrayishBlue'
+      "
       title="Share"
       @click="$emit('changeShowShare')"
     >
@@ -58,6 +61,7 @@ export default {
       </div>
       <svg
         class="fill-veryDarkGrayishBlue group-hover:fill-white"
+        :class="showShareDesktop ? 'fill-white' : 'fill-veryDarkGrayishBlue'"
         xmlns="http://www.w3.org/2000/svg"
         width="15"
         height="15"
